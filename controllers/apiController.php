@@ -12,5 +12,9 @@ class apiController extends controller{
         }
         $contestData = $api->getContestData($c_number);
     }
+    public function checkUpdate(){
+        $api = new Request();
+        $api->checkLatestContestCron();
+    }
 
 }

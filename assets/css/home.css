@@ -1,0 +1,50 @@
+*{
+    color: #4c556c;
+}
+.title-resultado{
+    font-size:40px;
+    color: #0066B3;
+    font-weight: 900;
+}
+.show-contest{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: 1px solid #CCC;
+    align-items: center;
+
+}
+.inputs-search{
+    color: rgb(51, 51, 51);
+}
+#buscarConcurso{
+    width: 60px;
+    height: 40px;
+    font-family: Arial;
+    text-align: center;
+}
+.table-row{
+    border-bottom: 1px solid #CCC;
+}
+.table-data{
+    padding: 15px 15px 15px 50px;
+    font-size: 25px;
+    color: #930888;
+}
+.box-p{
+    width: 100%;
+    height: auto;
+    background-color: #F4F4F6;
+    padding: 20px;
+}
+.vertical-center{
+    display:flex;
+    align-items: center;
+}
+.sllsl{
+    font-weight: 500;
+    font-size: 30px;
+}
+.sllsl2{
+    font-weight: 500;
+}

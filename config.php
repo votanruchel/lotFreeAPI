@@ -2,7 +2,7 @@
 require 'environment.php';
 
 $config = array();
-//Definindo dados padrões das paginas
+//Definicao do token da API
 define('API_TOKEN','ht2wcdZ9HsBBWuA');
 
 

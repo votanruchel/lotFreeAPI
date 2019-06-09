@@ -1,0 +1,26 @@
+.left-text{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.title{
+    font-size: 45px;
+    font-family: Arial;
+    color: #FFF;
+    font-weight: 900;
+}
+.menu{ 
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+ul{
+    line-height: 40px;
+    list-style: none;
+    display: inline;
+}
+li{
+    display: inline;
+    padding: 0px 0px 25px 25px;
+    color: #FFF;
+}
