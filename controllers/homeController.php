@@ -1,10 +1,12 @@
 <?php
 class homeController extends controller{
     public function index(){
-        $this->loadTemplate('home',$dados = array());
-    }
+        $render = new Render();
+        $api = new Request();
+        $dados = array();
+        $dados['lastcontest'] = $render->getLastContest();
 
-    public function teste(){
-        echo "this is test";
+        $this->loadTemplate('home',$dados);
+
     }
 }

@@ -12,7 +12,7 @@
     <div class="container-fluid" style="height: 400px; background-color: #0065B8;">
       <div class="left-text">
       <!-- Left Text-->
-      <span class="title">Confira os resultador da loteria</span>
+      <span class="title">Confira os resultados da lotofácil</span>
       </div>
       <div class="right-text">
       <!-- Right Text-->
@@ -30,7 +30,11 @@
       </ul>
    </div>
     <?php $this->loadViewInTemplate($viewName,$viewData); ?>
+    <footer>
+      <div class="container-fluid footer">
 
+      </div>  
+    </footer>
     <script src="<?php echo BASE_URL.'assets/js/jquery-3.3.1.min.js'?>"></script>
     <script src="<?php echo BASE_URL.'assets/js/bootstrap.min.js'?>"></script>
 </body>
