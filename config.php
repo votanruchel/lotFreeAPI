@@ -3,15 +3,15 @@ require 'environment.php';
 
 $config = array();
 //Definindo dados padrões das paginas
-define('DEFAULT_PAGE_TITLE','Titulo da página');
+define('API_TOKEN','ht2wcdZ9HsBBWuA');
 
 
 if(ENVIRONMENT == "development"){
-    define("BASE_URL", "http://localhost/mvc/");
-    $config['dbname'] = 'usuarios';
+    define("BASE_URL", "http://localhost/lotFreeAPI/");
+    $config['dbname'] = 'lotapi';
     $config['host'] = 'localhost';
-    $config['dbuser'] = 'admin';
-    $config['dbpass'] = 'admin';
+    $config['dbuser'] = 'root';
+    $config['dbpass'] = '';
 }else{
     define("BASE_URL", "https://votan.dev/mvc/");
     $config['dbname'] = 'estrutura_mvc';
