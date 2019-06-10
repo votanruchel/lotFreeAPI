@@ -3,8 +3,9 @@ require 'environment.php';
 
 $config = array();
 //Definicao do token da API
-define('API_TOKEN','ht2wcdZ9HsBBWuA');
-//ht2wcdZ9HsBBWuA
+define('API_TOKEN','IiTM2dpnB9mmm5T');
+//ht2wcdZ9HsBBWuA   --- Token Alessandro
+//IiTM2dpnB9mmm5T   --- Token Claudio
 
 if(ENVIRONMENT == "development"){
     define("BASE_URL", "http://localhost/lotFreeAPI/");

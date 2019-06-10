@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="<?php echo BASE_URL.'assets/css/home.css'?>">
   </head>
   <body>
-    <div class="container-fluid" style="height: 400px; background-color: #0065B8;">
+    <div class="container-fluid" style="height: 400px; background-image: linear-gradient(to right,#0065B8,#1891B2,#68a2d1);">
       <div class="left-text">
       <!-- Left Text-->
       <span class="title">Confira os resultados da lotofácil</span>

@@ -9,7 +9,7 @@ $dezenas = explode(',',$lastcontest['dezenas']);
         <div class="show-contest">
                 <div><span class='title-resultado'>Resultado</span> Concurso <?php echo $lastcontest['numero']." (".$lastcontest['data'].")";?> </div>
                 <div class="inputs-search">
-                 Buscar concurso: <input type="text" id="buscarConcurso" placeholder="Numero concurso"> 
+                 Buscar concurso: <input type="text" id="buscarConcurso" placeholder="<?php echo $lastcontest['numero']; ?>"> 
                 </div>
                   
             </div>
@@ -64,24 +64,24 @@ $dezenas = explode(',',$lastcontest['dezenas']);
         <div class="col-sm-6">
             <div class="box-p">
                 <span class='title-resultado' style="font-size: 30px;">Premiação</span>
-                <div>
-                <strong>15 acertos</strong><br>
+                <div class="text-box-p">
+                <span class="default-gray">15 acertos</span><br>
                 <?php echo $lastcontest['ganhadores_ac15'];?> apostas ganhadoras, R$ <?php echo $lastcontest['acertos_15'];?>
                 </div>
-                <div>
-                <strong>14 acertos</strong><br>
+                <div class="text-box-p">
+                <strong class="default-gray">14 acertos</strong><br>
                 <?php echo $lastcontest['ganhadores_ac14'];?> apostas ganhadoras, R$ <?php echo $lastcontest['acertos_14'];?>
                 </div>
-                <div>
-                <strong>13 acertos</strong><br>
+                <div class="text-box-p">
+                <strong class="default-gray">13 acertos</strong><br>
                 <?php echo $lastcontest['ganhadores_ac13'];?> apostas ganhadoras, R$ <?php echo $lastcontest['acertos_13'];?>
                 </div>
-                <div>
-                <strong>12 acertos</strong><br>
+                <div class="text-box-p">
+                <strong class="default-gray">12 acertos</strong><br>
                 <?php echo $lastcontest['ganhadores_ac12'];?> apostas ganhadoras, R$ <?php echo $lastcontest['acertos_12'];?>
                 </div>
-                <div>
-                <strong>11 acertos</strong><br>
+                <div class="text-box-p">
+                <strong class="default-gray">11 acertos</strong><br>
                 <?php echo $lastcontest['ganhadores_ac11'];?> apostas ganhadoras, R$ <?php echo $lastcontest['acertos_11'];?> 
                 </div>  
         
